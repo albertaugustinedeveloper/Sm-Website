@@ -1877,8 +1877,21 @@ p {
   }
 
   .hero-title {
-    font-size: 1.5rem; /* adjust as needed */
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    width: 100%;
     line-height: 1.2;
+    font-size: 1.5rem; /* You can adjust this value as needed */
+    padding-left: 10px; /* or any value you prefer */
+  }
+
+  .hero-text,
+  .price,
+  .shop-btn {
+    display: none;
   }
 
   .hero-text {
@@ -2000,8 +2013,8 @@ p {
   }
 
   .profile-img {
-    width: 190px;
-    height: 190px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto 20px auto; /* Center image with margin below */
   }
 
