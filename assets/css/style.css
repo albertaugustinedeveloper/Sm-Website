@@ -1889,8 +1889,11 @@ p {
   }
 
   .hero-text,
-  .price,
-  .shop-btn{
+  .price {
+    display: none;
+  }
+
+  .shop-btn {
     display: none;
   }
 
